@@ -25,7 +25,7 @@ echo $our_time;
 
 //  the  logic behind this is, If the time is less or equal to 11, then it is morning.
 //  if the time is less or equal to 17, which equal 5, then it is afternoon.
-//  now we will have an else, that will mean it is evening!
+//  now we will have an else, that will mean it is evening!!!!!!
 
 if($our_time <= 8) {
 echo '<h2 style="color:yellow;">Good Morning, '.$name.'</h2>
