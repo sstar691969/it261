@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post=">
+<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
 <fieldset>
 <label>NAME</label>
 <input type="text" name="name">
@@ -115,7 +115,7 @@ $_POST['bank'])) {
 $name = $_POST['name'];
 $email = $_POST['email'];
 $amount = $_POST['amount'];
-$currency = $_POST['bank'];
+$currency = $_POST['currency'];
 $bank = $_POST['bank'];
 $dollars = $amount * $currency;
     

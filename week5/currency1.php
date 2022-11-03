@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post=">
+<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
 <fieldset>
 <label>NAME</label>
 <input type="text" name="name">
