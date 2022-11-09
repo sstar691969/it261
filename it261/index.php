@@ -21,7 +21,7 @@
 <ul>
     
     <li><a href="">Using a Switch, HW3</a></li>
-    <li><a href="">Troubleshoot</a></li>
+    <li><a href="it261/weeks/week4/adder.php">Troubleshoot</a></li>
     <li><a href="">Travel Calculator</a></li>
     <li><a href="">Email</a></li>
     <li><a href="">Gallery</a></li>
@@ -100,6 +100,7 @@
         <li><a href="weeks/week4/form3.php">form3.php</a></li>
         <li><a href="weeks/week4/form-arithmetic.php">form-arithmetic.php</a></li>
         <li><a href="weeks/week4/celcius.php">celcius.php</a></li>
+        <li><a href="weeks/week4/adder.php">adder.php</a></li>
 
         <li>Week 5</li>
         <li><a href="weeks/week5/currency1.php">currency1.php></a></li>
