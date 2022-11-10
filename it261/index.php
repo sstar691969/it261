@@ -21,7 +21,7 @@
 <ul>
     
     <li><a href="">Using a Switch, HW3</a></li>
-    <li><a href="it261/weeks/week4/adder.php">Troubleshoot</a></li>
+    <li><a href="adder.php">Troubleshoot</a></li>
     <li><a href="">Travel Calculator</a></li>
     <li><a href="">Email</a></li>
     <li><a href="">Gallery</a></li>
