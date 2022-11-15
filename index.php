@@ -22,7 +22,7 @@
     
     <li><a href="">Using a Switch, HW3</a></li>
     <li><a href="adder.php">Troubleshoot</a></li>
-    <li><a href="calculator2.php">Travel Calculator</a></li>
+    <li><a href="calculator3.php">Travel Calculator</a></li>
     <li><a href="">Email</a></li>
     <li><a href="">Gallery</a></li>
     <li><a href="">Database</a></li>
