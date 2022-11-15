@@ -17,10 +17,10 @@
 <input type="text" name="name" value="<?php if(isset($_POST['name'])) echo htmlspecialchars($_POST['name'])  ;?>">
 
 <label>EMAIL</label>
-<input type="email" name="email"value="<?php if(isset($_POST['email'])) echo htmlspecialchars($_POST['email'])  ;?>">
+<input type="email" name="email" value="<?php if(isset($_POST['email'])) echo htmlspecialchars($_POST['email'])  ;?>">
 
 <label>How much money do you have?</label>
-<input type="number" name="amount"value="<?php if(isset($_POST['amount'])) echo htmlspecialchars($_POST['amount'])  ;?>">
+<input type="number" name="amount" value="<?php if(isset($_POST['amount'])) echo htmlspecialchars($_POST['amount'])  ;?>">
 
 <!-- time for our ratio button that has an additional attribute of value-->
 
