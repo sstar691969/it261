@@ -21,11 +21,11 @@
 if (isset($_POST['distance1'],$_POST['speed2'])){ 
     $distance1 = floatval($_POST['distance1']); 
     $speed2 = floatval($_POST['speed2']); 
-    $myTime = $distance1/$speed2; 
+    $myTime =$distance1/$speed2; 
     
-    echo "<h2>You well drive this distance by this time: " . $distance1 . 'miles and' . $speed2 . 'hour(s)' . "</h2>";
-    echo ' <p> and the time is: <br><style="color:red;" > ' . $myTime . '! </p>';
+    echo "<h2>You well drive this distance at this speed: " . $distance1 . ' miles and ' . $speed2 . ' per hour ' . "</h2>";
+    echo ' <p> and the traveling time is: <br><style="color:red;" > ' . $myTime . ' hours </p>';
     echo'<p><a href="">Reset page</a></p>';
-    
+     
 }
 ?> 

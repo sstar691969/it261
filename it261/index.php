@@ -22,7 +22,7 @@
     
     <li><a href="">Using a Switch, HW3</a></li>
     <li><a href="adder.php">Troubleshoot</a></li>
-    <li><a href="calculator2.php">Travel Calculator</a></li>
+    <li><a href="calculator3.php">Travel Calculator</a></li>
     <li><a href="">Email</a></li>
     <li><a href="">Gallery</a></li>
     <li><a href="">Database</a></li>
@@ -114,7 +114,8 @@
         <li><a href="weeks/week6/var.php">var.php</a></li>
         <li><a href="weeks/week6/implode.php">implode.php</a></li>
         <li><a href="weeks/week6/functions.php">functions.php</a></li>
-        
+        <li><a href="weeks/week6/form.php">form.php</a></li>
+        <li><a href="weeks/week6/form2.php">form2.php</a></li>
         <li>Week 7</li>
         <li><a href="weeks/week7/random.php">random.php</a></li>
         <li><a href="weeks/week7/pictures.php">pictures.php</a></li>
