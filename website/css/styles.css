@@ -1,21 +1,42 @@
 /* styles for my website */
 
 * {
-    margin:0;
-    padding:0;
+    margin: 10px;
+    padding: 10px;
     box-sizing:border-box;
 
 }
 body {
-    background:beige;
+    background:rgb(234, 234, 48);
     font-family:Verdana,Geneva, Tahoma, sans-serif;
     
 
+}
+body.Monday {
+         background: aqua;
+
+
+
+}
+body.Monday {
+    background: aqua;
 }
 
 header {
     background:yellow;
     padding: 20px 0;
+
+}
+form {
+    width: 300px;
+    height: 10%;
+
+
+
+
+}
+.bigger {
+    width: 200px;
 
 }
 
