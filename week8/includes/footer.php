@@ -4,7 +4,7 @@
         <li>Copyright &copy;
             2022</li>
         <li>All Rights Reserved</li>
-        <li><a href="../index.php">Web Design by William L Anderson</a></li>
+        <li><a href="../../index.php">Web Design by William L Anderson</a></li>
         <li><a id="html-checker" href="#">HTML Validation</a></li>
         <li><a id="css-checker" href="#">CSS Validation</a></li>
     </ul>

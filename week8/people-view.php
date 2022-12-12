@@ -43,34 +43,65 @@ $feedback = '';
 
 } else {  // end if statement
 
-feedback = 'There is a problem!!!';
+$feedback ='There is a problem!!!';
 
 }  // end else
 
-include('./include/header.php');
+include('./includes/header.php');
 ?>
 
 <div id="wrapper">
 <main>
 <h1> Welcome to our People View Page!</h1>
 <h2> Introducing you to <?php echo $first_name  ;?>'s Page</h2>'
+<ul>
+<?php 
 
+echo '
+<ul>
+<li><b>First Name: </b>'.$first_name.' </li>
+<li><b>Last Name: </b>'.$last_name.' </li>
+<li><b>Email: </b>'.$email.' </li>
+<li><b>Birthdate: </b>'.$birthdate.' </li>
+<li><b>Occupation: </b>'.$occupation.' </li>
+
+<li><p>'.$details.'</p>
+</li>
+';
+
+?>
+</ul>
+
+
+<p><a href="people.php">Return to the people page!</p>
 
 
 
 </main>
 
-
-
 <aside>
 <h3>This is my Aside</h3>
 
-
+<!-- donald images here---->
 </aside>
 
+<?php
 
+// we are going to release the server
+
+@mysqli_free_result($result);
+
+// close the connection
+
+@mysqli_close($iConn);
+
+
+?>
 
 
 </div>
 
 <!-- end wrapper -->
+<?php 
+include('./includes/footer.php');
+

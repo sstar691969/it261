@@ -40,8 +40,6 @@ echo '
 <li><b>Birthdate</b> '.$row['birthdate'].' </li>
 </ul>
 <p>For more information about '.$row['first_name'].' , click here <a href="people-view.php?id='.$row['people_id'].' ">here</a> </p>
-
-
 ';
 
     
