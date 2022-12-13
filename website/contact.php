@@ -158,22 +158,33 @@ header('Location:thx.php');
 
 }
 
-
+include('./includes/header.php');
 ?>
 
+<main>
+
+<h1>Welcome to our contact page!!</h1>
 
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emailable Form week 6</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet" >
-</head>
-<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
 
     <!-- https://www.geeksforgeeks.org/how-to-prevent-xss-with-html-php/ -->
     
@@ -316,7 +327,9 @@ header('Location:thx.php');
 </form>
 
 
+<?php
 
-    
-</body>
-</html>
+include('./includes/footer.php');
+?>
+
+

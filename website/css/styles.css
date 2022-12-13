@@ -1,5 +1,162 @@
 /* styles for my website */
 
+//* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing:border-box;
+
+}
+body {
+    background:rgb(234, 234, 48);
+    font-family:Verdana,Geneva, Tahoma, sans-serif;
+    
+
+}
+body.Monday {
+         background: aqua;
+
+
+
+}
+body.Monday {
+    background: aqua;
+}
+
+header {
+    background:yellow;
+    padding: 20px 0;
+
+}
+form {
+    width: 300px;
+    height: 10%;
+
+
+
+
+}
+.bigger {
+    width: 200px;
+
+}
+
+.inner-header {
+    max-width: 1200px;
+margin:0px auto;
+
+overflow: hidden;
+
+
+}
+
+
+#logo {
+    width: 100px;
+    float:left;
+}
+
+nav ul{
+    float:right;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+nav li{
+    float:left;
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration:none ;
+}
+
+#wrapper {
+max-width: 1200px;
+margin:20px auto;
+clear:both;
+overflow: hidden;
+}
+
+
+
+#hero {
+
+background:red;
+margin-bottom: 20px;
+
+
+
+}
+
+main {
+width: 50%;
+background: lightsalmon;
+float:left;
+
+
+}
+
+aside {
+width:35%;
+height:300px;
+background: lightsalmon;
+float: right;
+
+
+}
+
+footer{
+height:90px ;
+line-height: 40px;
+background: #ddd;
+clear: both;
+
+
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer li{
+     justify-content: center;
+     margin:0 15px;
+}
+
+img {
+    max-width:100%;
+}
+
+/* typography*/
+
+/* p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+h1 {
+
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 2em;
+
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h1, h2, h3{
+    margin-bottom:10px ;
+    font-family: playfair sans-serif; 
+
+} */
+/* styles for my website */
+
 * {
     margin: 10px;
     padding: 10px;
@@ -51,8 +208,8 @@ overflow: hidden;
 
 
 #logo {
-    width: 200px;
-    float: left;
+    width: 100px;
+    float:left;
 }
 
 nav ul{
@@ -89,9 +246,8 @@ margin-bottom: 20px;
 }
 
 main {
-width: 62%;
-
-background: lightblue;
+width: 50%;
+background: lightsalmon;
 float:left;
 
 
@@ -99,7 +255,7 @@ float:left;
 
 aside {
 width:35%;
-
+height:300px;
 background: lightsalmon;
 float: right;
 
@@ -107,8 +263,8 @@ float: right;
 }
 
 footer{
-height:60px ;
-line-height: 60px;
+height:90px ;
+line-height: 40px;
 background: #ddd;
 clear: both;
 

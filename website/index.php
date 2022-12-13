@@ -2,7 +2,7 @@
 include('./includes/header.php'); ?>
 
 <div id="wrapper">
-
+<nav> <img src="images/logo.jpeg" alt="logo elephant"></nav>
 <div id="hero">
 <img src="images/twelve_new.jpeg" alt="Twelve is a greater than 3">
 

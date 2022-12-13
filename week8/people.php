@@ -35,6 +35,7 @@ if(mysqli_num_rows($result) > 0) {
 echo '
 <h2>Information about: '.$row['first_name'].'</h2>
 <ul>
+
 <li><b>First Name</b> '.$row['first_name'].' </li>
 <li><b>Last Name</b> '.$row['last_name'].' </li>
 <li><b>Birthdate</b> '.$row['birthdate'].' </li>

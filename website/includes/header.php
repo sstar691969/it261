@@ -160,26 +160,29 @@ case 'Thursday' :
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" type="text/css" rel="stylesheet">
-    <title>Switch Classwork Exercise</title>
+    <title><?php echo $title; ?></title>
     
 
 
 </head>
-<body class= <?php echo $today  ; ?>>
+<body class= <?php echo $body  ; ?>>
 
 <nav>
-<ul>
+ <ul>
+<?php 
+foreach($nav as $key => $value) {
+if(THIS_PAGE == $key) {
+  echo '<li><a style ="color:red;" href=" '.$key.' "> '.$value.' </a></li>';
 
-    <li><a href="">Home</a></li>
-    <li><a href="">about</a></li>
-    <li><a href="daily.php">Daily</a></li>
-    <li><a href="">Project</a></li>
-    <li><a href="contact.php">Contact</a></li>
-    <li><a href="">Gallery</a></li>
-    
-   
+} else {
+  echo '<li><a style ="color:green;" href=" '.$key.' "> '.$value.' </a></li>';
+}
 
+
+} // end foreach
+?> 
 </ul>
+
     
 </nav>
 

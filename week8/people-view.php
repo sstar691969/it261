@@ -27,7 +27,7 @@ $result = mysqli_query($iConn, $sql) or die(myError(__FILE__,__LINE__,
 mysqli_error($iConn)));
 
 if(mysqli_num_rows($result) > 0) {
-while($row = mysql_fetch_assoc($result)) {
+while($row = mysqli_fetch_assoc($result)) {
 $first_name = stripcslashes($row['first_name']);
 $last_name = stripcslashes($row['last_name']);
 $email = stripcslashes($row['email']);
@@ -53,7 +53,7 @@ include('./includes/header.php');
 <div id="wrapper">
 <main>
 <h1> Welcome to our People View Page!</h1>
-<h2> Introducing you to <?php echo $first_name  ;?>'s Page</h2>'
+<h2> Introducing you to <?php echo $first_name  ;?>'s Page</h2>
 <ul>
 <?php 
 
@@ -73,7 +73,7 @@ echo '
 </ul>
 
 
-<p><a href="people.php">Return to the people page!</p>
+<p><a href="people.php">Return to the people page!</a></p>
 
 
 
@@ -81,8 +81,25 @@ echo '
 
 <aside>
 <h3>This is my Aside</h3>
+<figure>
+<img src="images/people<?php echo $id; ?>.jpeg" alt="<?php echo $first_name ;?>">
+<figcaption>
 
-<!-- donald images here---->
+
+<?php
+
+
+echo '
+'.$first_name.' '.$last_name.', '.$occupation.'
+';
+?>
+</figcaption>
+</figure>
+<p><i><?php
+echo $blurb;
+
+
+?></i></p>
 </aside>
 
 <?php
