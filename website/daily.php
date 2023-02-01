@@ -142,7 +142,7 @@ include  'includes/header.php';
 ?>
 
 <h2>Check out our Daily Specials</h2>
-<p><i>Please complete All of the days of the week!!!!</i></p>
+<p><i>Please select each daily option below!!!!</i></p>
 <ul>
 
 <li><a style="color:<?php

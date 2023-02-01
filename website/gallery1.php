@@ -1,11 +1,3 @@
-
-<?php
-include('./includes/header.php');
-?>
-<main>
-
-<h1>Welcome to our gallery of images!!</h1>
-
 <?php
 
 $people['Muhammad_Ali'] = 'aliii_Heavyweight boxer from Ky.';
@@ -74,32 +66,3 @@ $people['Joe_Frazier'] = 'frazi_Heavyweight boxer from SC.';
 </html>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</main>
-
-
-
-
-
-    <!-- https://www.geeksforgeeks.org/how-to-prevent-xss-with-html-php/ -->
-    
-
-
-<?php
-include('./includes/footer.php');
-?>
