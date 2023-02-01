@@ -67,7 +67,11 @@ echo 'Nobody is home!';
 ?>
 </main>
 <aside>
+    
+<h3>I will displaying my random images here</h3>
 
+
+</aside>
 
 </div> 
 

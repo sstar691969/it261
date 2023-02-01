@@ -3,7 +3,8 @@
 
 
 // willanderson_codes - name of my database
-// star_691969user - 2nd user name
+// Sstar_691969 - first user name
+// Star_691969user - 2nd user
 
 
 define('DB_NAME', 'willanderson_codes');
