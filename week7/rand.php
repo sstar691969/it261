@@ -49,8 +49,8 @@ echo '<b>Dice 1:</b> '.$dice1a.' <b>Dice 2:</b> '.$dice2a.'';
 
  $i = rand(0, 4);
 
- $selected_image =''.$photos[$i].'.jpg';
- echo '<img scr="images/'.$selected_image.'" alt="'.$photos[$i].'" >'; 
+ $selected_image =''.$photos[$i].'.jpeg';
+ echo '<img src="images/'.$selected_image.'" alt="'.$photos[$i].'" >'; 
 
  echo '<h2><Let\'s create a function/h2>';
 
