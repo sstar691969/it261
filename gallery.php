@@ -27,32 +27,7 @@ $people['Joe_Frazier'] = 'frazi_Heavyweight boxer from SC.';
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery1</title>
-    <style>
 
-
-    table {
-        border:1px solid red;
-        border-collapse:collapse;
-
-    }
-    
-    td {
-
-        border:1px solid red;
-
-    }
-
-
-    </style>
-</head>
-<body>
 
 <table>
 <?php foreach($people as $name => $image)            :?>
@@ -69,36 +44,17 @@ $people['Joe_Frazier'] = 'frazi_Heavyweight boxer from SC.';
 
 
 </table>
-    
-</body>
-</html>
+
+</main>  
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</main>
 
 
 
 
 
     <!-- https://www.geeksforgeeks.org/how-to-prevent-xss-with-html-php/ -->
-    
-
 
 <?php
 include('./includes/footer.php');
