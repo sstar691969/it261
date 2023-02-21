@@ -1,5 +1,5 @@
 
-</div>
+
 <footer>
     <ul>
         <li>Copyright &copy;
@@ -21,4 +21,3 @@
 
 </body>
 </html>
-

@@ -165,7 +165,7 @@ case 'Thursday' :
 
 
 </head>
-<body class= <?php echo $body  ; ?>>
+<body class= "<?php echo $body  ; ?>">
 
 <nav>
  <ul>
@@ -186,4 +186,3 @@ if(THIS_PAGE == $key) {
     
 </nav>
 
-<div class="wrapper">

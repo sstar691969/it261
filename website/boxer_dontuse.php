@@ -1,19 +1,16 @@
 <?php
 
-include('./includes/header.php');
 include('config.php');
-
+include('./includes/header.php');
 ?>
 
 
-
 <div id="wrapper">
-<h1>Welcome to our Project page!!</h1>
+
 <main>
 
 <?php
-
-$sql = 'SELECT * FROM project1';
+$sql = 'SELECT * FROM boxers';
 // now, we have to connect to our database
 
 //$iConn = mysqli_connect(DB_NAME, DB_USER, DB_PASSWORD,
@@ -43,7 +40,7 @@ echo '
 <li><b>Last Name</b> '.$row['last_name'].' </li>
 <li><b>Birthdate</b> '.$row['birthdate'].' </li>
 </ul>
-<p>For more information about '.$row['first_name'].' , click here <a href="boxers-view.php?id='.$row['project1_id'].' ">here</a> </p>
+<p>For more information about '.$row['first_name'].' , click here <a href="boxer-view.php?id='.$row['boxer_id'].' ">here</a> </p>
 ';
 
     
@@ -78,29 +75,23 @@ echo 'Nobody is home!';
 
 </div> 
 
+<!-----end wrapper---->
+
+<h3>I will displaying my random images here</h3>
 
 
+</aside>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-    
-
-
-<?php
+<?php 
 include('./includes/footer.php');
+
 ?>
+
+
+
+
+
+
+
+
+

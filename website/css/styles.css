@@ -312,3 +312,18 @@ h1, h2, h3{
     font-family: playfair sans-serif; 
 
 }
+
+
+
+table {
+     border:1px solid red;
+     border-collapse:collapse;
+
+}
+    
+td {
+
+     border:1px solid red;
+
+}
+
