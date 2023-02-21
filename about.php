@@ -1,6 +1,26 @@
 
 <?php 
 include('./includes/header.php'); ?>
+<main>
+
+<h1>Welcome to our About Page!!</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
 
 
 
