@@ -54,7 +54,7 @@ include('./includes/header.php');
 <main>
 <h1> Welcome to our People View Page!</h1>
 <h2> Introducing you to <?php echo $first_name  ;?>'s Page</h2>
-<ul>
+
 <?php 
 
 echo '
@@ -67,10 +67,11 @@ echo '
 
 <li><p>'.$details.'</p>
 </li>
+</ul>
 ';
 
 ?>
-</ul>
+
 
 
 <p><a href="people.php">Return to the people page!</a></p>
@@ -116,7 +117,7 @@ echo $blurb;
 ?>
 
 
-</div>
+
 
 <!-- end wrapper -->
 <?php 
