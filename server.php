@@ -15,14 +15,10 @@ $iConn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) or die(myError(_
 
 // register the user, using in isset reg_user
 
-
+$errors = array();
 
 if(isset($_POST['reg_user'])) {
 $first_name = mysqli_real_escape_string($iConn, $_POST['first_name']);
-
- 
-
-
 $last_name = mysqli_real_escape_string($iConn, $_POST['last_name']);
 $email = mysqli_real_escape_string($iConn, $_POST['email']);
 $username = mysqli_real_escape_string($iConn, $_POST['username']);
@@ -62,6 +58,19 @@ if($password_1 !== $password_2) {
 
 
 }
+/* below can deleted if not related to it261//
+/*if (count($errors)>0) {
+    echo "<div class= 'error alert'> $errors</div>";
+}
+}else{
+    require_once "database.php";
+    $sql = INSERT INTO users (first_name, last_name, username, email, password)";
+
+
+}   delete all above not it261*/
+
+
+
 
 
 
@@ -100,8 +109,7 @@ if ($rows['email'] == $email) {
 // do we have any errors??? idealistically, no errors!!!
 
 if(count($errors) == 0 ) {
-
- 
+    
 
 $password = md5($password_1);
 
@@ -109,7 +117,7 @@ $password = md5($password_1);
 
 $query = "INSERT INTO users (first_name, last_name, email, username, password_1) VALUES ('$first_name', '$last_name', '$email', '$username', '$password')";
 
-mysqli_query(iConn, $query);
+mysqli_query($iConn, $query);
 
 
 
@@ -127,3 +135,59 @@ header('Location:login.php');
 
 
 } // end if isset_reg_user
+
+
+//Now, we not communicate with the login page - we will ask the sanme question!!!
+
+
+if(isset($_POST['login_user'])) {
+$username = mysqli_real_escape_string($iConn, $_POST['username']);
+
+$password = mysqli_real_escape_string($iConn, $_POST['password']);
+
+if(empty($username)) {
+    array_push($errors, 'Username is required!!! ');
+
+}
+if(empty($password)) {
+    array_push($errors, 'Password is required!!! ');
+
+}
+
+//we will be counting our errors, and hope that we have zero errors!!
+
+if(count($errors) == 0 ) {
+    
+
+$password = md5($password);
+
+$query = "SELECT * FROM users WHERE username = '$username' AND password = '$password'  ";
+
+//below you have a row varible that is ($results) NOT ($result) 
+
+$results = mysqli_query($iConn. $query);
+
+if(mysqli_num_rows($results) == 1) {
+$_SESSION['username'] = $username;
+$_SESSION['success'] = $success;
+
+//if the above is successful, the user will be directed to the home page, which will be index.php
+    
+header('Location:index.php');
+
+
+} else {
+
+array_push($errors, 'wrong username/password combination');
+   
+
+
+} //close else
+
+
+} // close count
+
+
+} // close isset login user
+
+
